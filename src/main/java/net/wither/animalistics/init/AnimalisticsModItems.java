@@ -2,7 +2,18 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.animalistics.init;
+package net.wither.animalistics.init;
+
+import net.wither.animalistics.item.UnsharpSpikeItem;
+import net.wither.animalistics.item.SweetBerryItem;
+import net.wither.animalistics.item.SweetBerryCleanItem;
+import net.wither.animalistics.item.RawLeatherItem;
+import net.wither.animalistics.item.DriedCactusPulpItem;
+import net.wither.animalistics.item.CactusSpikeItem;
+import net.wither.animalistics.item.CactusPulpItem;
+import net.wither.animalistics.item.CactusFiberItem;
+import net.wither.animalistics.item.BrokenStickItem;
+import net.wither.animalistics.AnimalisticsMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -11,17 +22,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
-
-import net.mcreator.animalistics.item.UnsharpSpikeItem;
-import net.mcreator.animalistics.item.SweetBerryItem;
-import net.mcreator.animalistics.item.SweetBerryCleanItem;
-import net.mcreator.animalistics.item.RawLeatherItem;
-import net.mcreator.animalistics.item.DriedCactusPulpItem;
-import net.mcreator.animalistics.item.CactusSpikeItem;
-import net.mcreator.animalistics.item.CactusPulpItem;
-import net.mcreator.animalistics.item.CactusFiberItem;
-import net.mcreator.animalistics.item.BrokenStickItem;
-import net.mcreator.animalistics.AnimalisticsMod;
 
 public class AnimalisticsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, AnimalisticsMod.MODID);

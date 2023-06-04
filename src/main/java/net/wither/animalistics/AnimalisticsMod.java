@@ -11,10 +11,13 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.animalistics;
+package net.wither.animalistics;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+
+import net.wither.animalistics.init.AnimalisticsModItems;
+import net.wither.animalistics.init.AnimalisticsModBlocks;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -28,9 +31,6 @@ import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
-
-import net.mcreator.animalistics.init.AnimalisticsModItems;
-import net.mcreator.animalistics.init.AnimalisticsModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;

@@ -1,5 +1,7 @@
 
-package net.mcreator.animalistics.item;
+package net.wither.animalistics.item;
+
+import net.wither.animalistics.init.AnimalisticsModItems;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Rarity;
@@ -8,8 +10,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
-
-import net.mcreator.animalistics.init.AnimalisticsModItems;
 
 public class SweetBerryItem extends Item {
 	public SweetBerryItem() {

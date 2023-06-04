@@ -1,5 +1,5 @@
 
-package net.mcreator.animalistics.item;
+package net.wither.animalistics.item;
 
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
