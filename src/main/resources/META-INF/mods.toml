@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="animalistics"
+version="0.13"
+displayName="Create: Animalistics"
+credits="Made with FM15, MCreator and love!"
+displayURL="https://mcreator.net"
+authors="Wither"
+description="Make animals without animals!"
+
+[[dependencies.animalistics]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.animalistics]]
+    modId="createsifter"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.animalistics]]
+    modId="create"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+

@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "animalistics:cactus_fiber"
+    },
+     {
+      "item": "animalistics:cactus_fiber"
+    },
+     {
+      "item": "animalistics:cactus_fiber"
+    },
+     {
+      "item": "animalistics:cactus_fiber"
+    },
+     {
+      "item": "animalistics:cactus_fiber"
+    },
+     {
+      "item": "animalistics:cactus_fiber"
+    },
+     {
+      "item": "animalistics:cactus_fiber"
+    },
+     {
+      "item": "animalistics:cactus_fiber"
+    },
+    {
+      "amount": 100,
+      "fluid": "create:honey",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "animalistics:raw_leather"
+    }
+  ]
+}

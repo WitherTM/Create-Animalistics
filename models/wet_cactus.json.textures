@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "wet_cactus_side",
+        "top": "wet_cactus_top",
+        "bottom": "wet_cactus_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

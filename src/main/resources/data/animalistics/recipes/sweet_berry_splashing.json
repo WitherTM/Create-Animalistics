@@ -1,0 +1,16 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "animalistics:fresh_sweet_berry"
+    }
+  ],
+  "result": {
+    "item": "animalistics:sweet_berry",
+    "count": 1
+  },
+  {
+    "item": "animalistics:broken_stick",
+    "count": 1
+  }
+}

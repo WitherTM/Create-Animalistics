@@ -1,0 +1,430 @@
+{
+  "mod_elements": [
+    {
+      "name": "WetCactusRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wet_cactus_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/wet_cactus_recipe.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "WetCactus",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_cactus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animalistics/block/WetCactusBlock.java",
+          "src/main/resources/assets/animalistics/models/block/wet_cactus.json",
+          "src/main/resources/assets/animalistics/blockstates/wet_cactus.json",
+          "src/main/resources/assets/animalistics/models/item/wet_cactus.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "WetCactusBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_cactus_block_valid_placement_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animalistics/procedures/WetCactusBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "CactusPulp",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cactus_pulp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animalistics/models/item/cactus_pulp.json",
+          "src/main/java/net/mcreator/animalistics/item/CactusPulpItem.java"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "CactusPulpRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cactus_pulp_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/cactus_pulp_recipe.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "CactusPulpRecipeAlt",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cactus_pulp_recipe_alt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/cactus_pulp_recipe_alt.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "DriedCactusPulp",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_cactus_pulp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animalistics/item/DriedCactusPulpItem.java",
+          "src/main/resources/assets/animalistics/models/item/dried_cactus_pulp.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "DriedCactusPulpRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_cactus_pulp_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/dried_cactus_pulp_recipe.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "DriedCactusPulpRecipeAlt",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dried_cactus_pulp_recipe_alt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/dried_cactus_pulp_recipe_alt.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "CactusFiber",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cactus_fiber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animalistics/item/CactusFiberItem.java",
+          "src/main/resources/assets/animalistics/models/item/cactus_fiber.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "CactusFiberRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cactus_fiber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/cactus_fiber_recipe.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "UnsharpSpike",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unsharp_spike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animalistics/item/UnsharpSpikeItem.java",
+          "src/main/resources/assets/animalistics/models/item/unsharp_spike.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "CactusSpike",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cactus_spike",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animalistics/models/item/cactus_spike.json",
+          "src/main/java/net/mcreator/animalistics/item/CactusSpikeItem.java"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "RawLeather",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_leather",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animalistics/models/item/raw_leather.json",
+          "src/main/java/net/mcreator/animalistics/item/RawLeatherItem.java"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "RawLeatherRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "raw_leather_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/raw_leather_recipe.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "LeatherRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/leather_recipe.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "SweetBerry",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fresh_sweet_berry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animalistics/item/SweetBerryItem.java",
+          "src/main/resources/assets/animalistics/models/item/fresh_sweet_berry.json"
+        ]
+      },
+      "path": "~/Berry To Beef 0.2"
+    },
+    {
+      "name": "WetCactusBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_cactus_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animalistics/procedures/WetCactusBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "SweetBerryRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/crafting_table.json"
+        ]
+      },
+      "path": "~/Cactus To Leather 0.1"
+    },
+    {
+      "name": "BrokenStick",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animalistics/models/item/broken_stick.json",
+          "src/main/java/net/mcreator/animalistics/item/BrokenStickItem.java"
+        ]
+      },
+      "path": "~/Berry To Beef 0.2"
+    },
+    {
+      "name": "SweetBerryClean",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animalistics/item/SweetBerryCleanItem.java",
+          "src/main/resources/assets/animalistics/models/item/sweet_berry.json"
+        ]
+      },
+      "path": "~/Berry To Beef 0.2"
+    },
+    {
+      "name": "FreshBerryRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fresh_berry_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/fresh_berry_recipe.json"
+        ]
+      },
+      "path": "~/Berry To Beef 0.2"
+    },
+    {
+      "name": "SweetBerrySplashing",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sweet_berry_splashing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animalistics/recipes/sweet_berry_splashing.json"
+        ]
+      },
+      "path": "~/Berry To Beef 0.2"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.animalistics.dried_cactus_pulp": "Dried Cactus Pulp",
+      "item.animalistics.cactus_spike": "Cactus Spike",
+      "item.animalistics.cactus_pulp": "Cactus Pulp",
+      "item.animalistics.raw_leather": "Raw Leather",
+      "item.animalistics.sweet_berry": "Sweet Berry",
+      "item.animalistics.cactus_fiber": "Cactus Fiber",
+      "item.animalistics.unsharp_spike": "Unsharp Cactus Spike",
+      "item.animalistics.broken_stick": "Broken Stick",
+      "item.animalistics.fresh_sweet_berry": "Fresh Sweet Berry",
+      "block.animalistics.wet_cactus": "Washed Cactus"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Cactus To Leather 0.1",
+        "children": []
+      },
+      {
+        "name": "Berry To Beef 0.2",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "animalistics",
+    "modName": "Create: Animalistics",
+    "version": "0.1 Patch 3",
+    "description": "Make animals without animals!",
+    "author": "Wither",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "createsifter",
+      "create"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Made with FM15, MCreator and love!",
+    "modElementsPackage": "net.mcreator.animalistics",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300222518
+}

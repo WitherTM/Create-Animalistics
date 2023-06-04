@@ -1,0 +1,11 @@
+{
+  "parent": "animalistics:custom/wet_cactus",
+  "textures": {
+    "all": "animalistics:block/wet_cactus_bottom",
+    "particle": "animalistics:block/wet_cactus_bottom",
+    "side": "animalistics:block/wet_cactus_side",
+    "top": "animalistics:block/wet_cactus_top",
+    "bottom": "animalistics:block/wet_cactus_bottom"
+  },
+  "render_type": "cutout"
+}

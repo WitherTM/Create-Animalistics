@@ -1,0 +1,20 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "animalistics:wet_cactus"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "animalistics:cactus_pulp",
+      "count": 4
+    },
+    {
+      "chance": 0.4,
+      "item": "animalistics:cactus_pulp",
+      "count": 3
+    }
+  ]
+}
