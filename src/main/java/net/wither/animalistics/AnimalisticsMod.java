@@ -48,6 +48,7 @@ public class AnimalisticsMod {
 
 	public AnimalisticsMod() {
 		MinecraftForge.EVENT_BUS.register(this);
+
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		AnimalisticsModBlocks.REGISTRY.register(bus);

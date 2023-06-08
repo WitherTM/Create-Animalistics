@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "animalistics:item/sweet_berry"
+    "layer0": "animalistics:items/sweet_berry"
   }
 }

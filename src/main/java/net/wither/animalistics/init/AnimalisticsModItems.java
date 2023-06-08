@@ -21,11 +21,12 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 public class AnimalisticsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, AnimalisticsMod.MODID);
-	public static final RegistryObject<Item> WET_CACTUS = block(AnimalisticsModBlocks.WET_CACTUS);
+	public static final RegistryObject<Item> WET_CACTUS = block(AnimalisticsModBlocks.WET_CACTUS, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> BROKEN_STICK = REGISTRY.register("broken_stick", () -> new BrokenStickItem());
 	public static final RegistryObject<Item> CACTUS_PULP = REGISTRY.register("cactus_pulp", () -> new CactusPulpItem());
 	public static final RegistryObject<Item> DRIED_CACTUS_PULP = REGISTRY.register("dried_cactus_pulp", () -> new DriedCactusPulpItem());
@@ -36,7 +37,7 @@ public class AnimalisticsModItems {
 	public static final RegistryObject<Item> FRESH_SWEET_BERRY = REGISTRY.register("fresh_sweet_berry", () -> new SweetBerryItem());
 	public static final RegistryObject<Item> SWEET_BERRY = REGISTRY.register("sweet_berry", () -> new SweetBerryCleanItem());
 
-	private static RegistryObject<Item> block(RegistryObject<Block> block) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }

@@ -421,7 +421,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.4",
+    "currentGenerator": "forge-1.19.2",
     "credits": "Made with FM15, MCreator and love!",
     "modElementsPackage": "net.wither.animalistics",
     "lockBaseModFiles": false

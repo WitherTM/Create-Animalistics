@@ -9,26 +9,25 @@ import net.minecraft.core.BlockPos;
 
 public class WetCactusBlockIsPlacedByProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (!((world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock() == Blocks.AIR || (world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock() == Blocks.AIR
-				|| (world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock() == Blocks.AIR || (world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock() == Blocks.AIR
-				|| (world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock() == AnimalisticsModBlocks.WET_CACTUS.get() || (world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock() == Blocks.SAND
-				|| (world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock() == Blocks.RED_SAND)) {
+		if (!((world.getBlockState(new BlockPos(x - 1, y, z))).getBlock() == Blocks.AIR || (world.getBlockState(new BlockPos(x, y, z + 1))).getBlock() == Blocks.AIR || (world.getBlockState(new BlockPos(x + 1, y, z))).getBlock() == Blocks.AIR
+				|| (world.getBlockState(new BlockPos(x, y, z - 1))).getBlock() == Blocks.AIR || (world.getBlockState(new BlockPos(x, y, z - 1))).getBlock() == AnimalisticsModBlocks.WET_CACTUS.get()
+				|| (world.getBlockState(new BlockPos(x, y, z - 1))).getBlock() == Blocks.SAND || (world.getBlockState(new BlockPos(x, y, z - 1))).getBlock() == Blocks.RED_SAND)) {
 			{
-				BlockPos _pos = BlockPos.containing(x, y, z);
-				Block.dropResources(world.getBlockState(_pos), world, BlockPos.containing(x, y, z), null);
+				BlockPos _pos = new BlockPos(x, y, z);
+				Block.dropResources(world.getBlockState(_pos), world, new BlockPos(x, y, z), null);
 				world.destroyBlock(_pos, false);
 			}
 		} else {
-			if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.SAND) {
-				world.setBlock(BlockPos.containing(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
-			} else if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.RED_SAND) {
-				world.setBlock(BlockPos.containing(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
-			} else if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == AnimalisticsModBlocks.WET_CACTUS.get()) {
-				world.setBlock(BlockPos.containing(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
+			if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.SAND) {
+				world.setBlock(new BlockPos(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
+			} else if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.RED_SAND) {
+				world.setBlock(new BlockPos(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
+			} else if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == AnimalisticsModBlocks.WET_CACTUS.get()) {
+				world.setBlock(new BlockPos(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
 			} else {
 				{
-					BlockPos _pos = BlockPos.containing(x, y, z);
-					Block.dropResources(world.getBlockState(_pos), world, BlockPos.containing(x, y, z), null);
+					BlockPos _pos = new BlockPos(x, y, z);
+					Block.dropResources(world.getBlockState(_pos), world, new BlockPos(x, y, z), null);
 					world.destroyBlock(_pos, false);
 				}
 			}

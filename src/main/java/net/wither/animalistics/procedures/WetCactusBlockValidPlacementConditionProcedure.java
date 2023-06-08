@@ -15,14 +15,14 @@ public class WetCactusBlockValidPlacementConditionProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity sourceentity) {
 		if (sourceentity == null)
 			return;
-		if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.SAND) {
-			world.setBlock(BlockPos.containing(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
-		} else if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.RED_SAND) {
-			world.setBlock(BlockPos.containing(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
-		} else if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == AnimalisticsModBlocks.WET_CACTUS.get()) {
-			world.setBlock(BlockPos.containing(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
+		if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.SAND) {
+			world.setBlock(new BlockPos(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
+		} else if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.RED_SAND) {
+			world.setBlock(new BlockPos(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
+		} else if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == AnimalisticsModBlocks.WET_CACTUS.get()) {
+			world.setBlock(new BlockPos(x, y, z), AnimalisticsModBlocks.WET_CACTUS.get().defaultBlockState(), 3);
 		} else {
-			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
+			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (sourceentity instanceof Player _player) {
 				ItemStack _setstack = new ItemStack(AnimalisticsModBlocks.WET_CACTUS.get());
 				_setstack.setCount(1);

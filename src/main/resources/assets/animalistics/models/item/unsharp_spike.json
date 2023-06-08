@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "animalistics:item/unsharpspike"
+    "layer0": "animalistics:items/unsharpspike"
   }
 }

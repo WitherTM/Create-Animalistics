@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "animalistics:item/cactusspike"
+    "layer0": "animalistics:items/cactusspike"
   }
 }
