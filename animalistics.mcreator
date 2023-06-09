@@ -373,20 +373,6 @@
         ]
       },
       "path": "~/Berry To Beef 0.2"
-    },
-    {
-      "name": "BerryPulpRecipe",
-      "type": "recipe",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "berry_pulp_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/animalistics/recipes/src/main/resources/data/animalistics/recipes/berry_pulp.json"
-        ]
-      },
-      "path": "~/Berry To Beef 0.2"
     }
   ],
   "variable_elements": [],

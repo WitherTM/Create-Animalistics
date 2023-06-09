@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "experience": 1,
-  "cookingtime": 600,
-  "ingredient": {
-    "item": "animalistics:sweet_berry"
-  },
-  "result": "minecraft:stripped_mangrove_log"
-}
